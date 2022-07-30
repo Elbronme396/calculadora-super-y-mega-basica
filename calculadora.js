@@ -9,17 +9,18 @@ let operacion = prompt("¿Que operacion quieres realizar? sumar, restar, dividir
 
 if (operacion == "sumar"){
     let resultado = parseInt(numero1) + parseInt(numero2)
-    alert(`El resultado de ${numero1} + ${numero2} es ` + resultado)
-};
+    alert("El resultado es " + resultado)};
+
 if (operacion == "restar"){
-   let resultado = parseInt(numero1) - parseInt(numero2)
-    alert(`El resultado de ${numero1} - ${numero2} es ` + resultado)
-};
+    let resultado = parseInt(numero1) - parseInt(numero2)
+    alert("El resultado es " + resultado)};
+
 if (operacion == "dividir"){
-   let resultado = parseInt(numero1) / parseInt(numero2)
-   alert(`El resultado de ${numero1} / ${numero2} es ` + resultado)
+    let resultado = parseInt(numero1) / parseInt(numero2)
+    alert("El resultado es " + resultado)
 };
+
 if (operacion == "multiplicar"){
     let resultado = parseInt(numero1) * parseInt(numero2)
-    alert(`El resultado de ${numero1} * ${numero2} es ` + resultado)
+    alert("El resultado es " + resultado)
 };
